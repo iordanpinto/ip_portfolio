@@ -1,0 +1,156 @@
+.card-product {
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  gap: 20px;
+
+}
+
+.tab-content .card-product img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+
+}
+
+
+.tab-content .card-product img:hover {
+  height: 115%;
+  overflow: visible;
+  transition: 0.5s;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  margin-top: 20px;
+
+}
+
+.card-product p {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 20px;
+
+}
+
+.card-product .card-product-infos {
+  padding-left: 80px;
+
+}
+
+.card-product .card-product-infos i {
+  margin-left: 15px;
+  font-size: 25px;
+
+}
+
+/* .card-product .card-product-infos a {
+
+} */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+
+.tab {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.tab button {
+  background-color: #FFFEFA;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: large;
+  margin: 2px;
+}
+
+.tab button:hover {
+  background-color: #cfd6bd;
+  border-radius: 10px;
+}
+
+.tab button.active {
+  background-color: #c7d2ad;
+  border-radius: 10px;
+}
+
+.tab-content {
+  display: none;
+  padding: 6px 12px;
+  opacity: 0;
+}
+
+.tab-content.active {
+  display: block;
+  opacity: 1;
+}
+
+
+.tab button {
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.card-product-infos {
+  padding: 5px;
+}
+
+
+#skill-odoo {
+  height: 20px;
+  width: auto;
+  filter: grayscale(100%);
+  background-color: transparent;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .tab button {
+    flex: 1 1 100%;
+  }
+
+  .card-product {
+    flex-direction: column;
+  }
+
+  .card-product .card-product-infos {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .card-product {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .tab button {
+    font-size: 0.8em;
+  }
+
+
+.card-product .card-product-infos {
+  padding-left: 0;
+}
+
+}
