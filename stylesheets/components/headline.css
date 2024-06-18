@@ -9,7 +9,7 @@
   overflow: hidden;
   max-width: 800px;
   width: 100%;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .profile-pic img {
@@ -43,7 +43,6 @@
 
 .tech-skills {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
   margin: 0 0 20px 0;

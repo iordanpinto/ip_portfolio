@@ -21,10 +21,6 @@
   justify-content: center;
 }
 
-.card:hover {
-  transform: scale(1.02);
-}
-
 .content {
   display: flex;
   align-items: center;

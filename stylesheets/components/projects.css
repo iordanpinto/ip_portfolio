@@ -15,12 +15,6 @@
 }
 
 
-.tab-content .card-product img:hover {
-  height: 115%;
-  overflow: visible;
-  transition: 0.5s;
-}
-
 .card-product h2 {
   font-size: 16px;
   font-weight: bold;
@@ -49,17 +43,14 @@
 
 }
 
-/* .card-product .card-product-infos a {
-
-} */
-
 .container {
   width: 70%;
   margin: 0 auto;
-
 }
 
-
+.container h2 {
+  font-size: 20px;
+}
 .tab {
   overflow: hidden;
   display: flex;
@@ -93,6 +84,7 @@
   display: none;
   padding: 6px 12px;
   opacity: 0;
+  text-align: justify;
 }
 
 .tab-content.active {
@@ -125,6 +117,10 @@
     flex: 1 1 100%;
   }
 
+  .tab-content .card-product img {
+    width: 100%;
+  }
+
   .card-product {
     flex-direction: column;
   }
@@ -139,6 +135,11 @@
   .card-product {
     flex-direction: column;
   }
+
+  .tab-content .card-product img {
+    width: 100%;
+  }
+
 
   h2 {
     font-size: 1.5em;

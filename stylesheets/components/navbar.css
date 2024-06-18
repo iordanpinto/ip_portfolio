@@ -5,17 +5,22 @@ nav, .nav-links {
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
-  height: 16vh;
+  height: 10vh;
+  margin-right: 25px;
+  padding: 30px;
 }
 
 .nav-links {
-  gap: 2rem;
+  gap: 1rem;
   list-style: none;
   font-size: 1.2rem;
 }
 
+.nav-links li {
+  margin-right: 15px;
+}
 
 /* Hamburger Menu */
 #hamburger-nav {
@@ -31,7 +36,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
+  height: 20px;
   width: 30px;
   cursor: pointer;
 }
@@ -47,7 +52,6 @@ nav {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -57,7 +61,7 @@ nav {
 
 .menu-links a {
   display: block;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   font-size: 1.5rem;
   color: black;
