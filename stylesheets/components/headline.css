@@ -1,0 +1,121 @@
+
+/* Headline */
+
+.headline-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.profile-pic img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 30%;
+  margin: 20px;
+}
+
+.description {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description h1 {
+  margin: 0 0 10px 0;
+}
+
+.description p {
+  margin: 0 0 20px 0;
+}
+
+.description a {
+  text-decoration: none;
+  flex-direction: center;
+  align-items: center;
+}
+
+.tech-skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 20px 0;
+}
+
+.tech-skills a {
+  font-size: 30px;
+}
+
+.tech-skills i {
+  font-size: 30px;
+}
+
+.tech-skills i:hover {
+  color: #c7d2ad;
+  transition: all 0.3s ease-in-out;
+}
+
+p {
+  font-size: 14px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .headline-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .description h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+
+  .description h2 {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+
+  .description p {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  .description a {
+    text-align: center;
+  }
+
+  .tech-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 20px 0;
+    justify-content: center;
+  }
+}
