@@ -14,31 +14,32 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
 </head>
 
-<nav id="desktop-nav">
-  <div class="logo"></div>
-  <div>
-    <ul class="nav-links">
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
-  </div>
-</nav>
-<nav id="hamburger-nav">
-  <div class="logo"></div>
-  <div class="hamburger-menu">
-    <div class="hamburger-icon" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="menu-links" style="margin-top: 10px;">
-      <li><a href="#about" onclick="toggleMenu()">About</a></li>
-      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-    </div>
-  </div>
-</nav>
-
 <body>
+  <div class="container">
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Über mich</a></li>
+          <li><a href="#projects">Projekte</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links" style="margin-top: 10px;">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projekte</a></li>
+        </div>
+      </div>
+    </nav>
+  </div>
   <div class="headline-container">
     <div class="profile-pic">
       <img src="images/propic.png" alt="Iordan Pinto">
@@ -61,62 +62,67 @@
   </div>
 
 
-  <div class="container">
-    <h2 id="projects">Projects</h2>
-    <div class="tab">
-      <button class="tablinks" onclick="openProject(event, 'Zebroo')">Zebroo</button>
-      <button class="tablinks" onclick="openProject(event, 'Pfarrverband Puchheim')">Pfarrverband Puchheim</button>
-      <button class="tablinks" onclick="openProject(event, 'Fridgy')">Fridgy</button>
-      <button class="tablinks" onclick="openProject(event, 'Equ-Win')">Equ-Win</button>
-      <button class="tablinks" onclick="openProject(event, 'ShipBnB')">ShipBnB</button>
-    </div>
-
-    <div id="Zebroo" class="tab-content">
+  <div class="container" id="projects">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#c7d2ad" fill-opacity="1"
+        d="M0,160L0,32L48,32L48,96L96,96L96,32L144,32L144,224L192,224L192,160L240,160L240,96L288,96L288,160L336,160L336,224L384,224L384,128L432,128L432,224L480,224L480,0L528,0L528,192L576,192L576,64L624,64L624,224L672,224L672,128L720,128L720,160L768,160L768,32L816,32L816,128L864,128L864,192L912,192L912,192L960,192L960,224L1008,224L1008,160L1056,160L1056,160L1104,160L1104,288L1152,288L1152,192L1200,192L1200,160L1248,160L1248,256L1296,256L1296,192L1344,192L1344,288L1392,288L1392,96L1440,96L1440,320L1392,320L1392,320L1344,320L1344,320L1296,320L1296,320L1248,320L1248,320L1200,320L1200,320L1152,320L1152,320L1104,320L1104,320L1056,320L1056,320L1008,320L1008,320L960,320L960,320L912,320L912,320L864,320L864,320L816,320L816,320L768,320L768,320L720,320L720,320L672,320L672,320L624,320L624,320L576,320L576,320L528,320L528,320L480,320L480,320L432,320L432,320L384,320L384,320L336,320L336,320L288,320L288,320L240,320L240,320L192,320L192,320L144,320L144,320L96,320L96,320L48,320L48,320L0,320L0,320Z">
+      </path>
+    </svg>
+    <div id="Zebroo">
       <div class="card-product">
         <img src="images/zebroo_ws.png" alt="Zebroo" />
         <div class="card-product-infos">
-          <h2>Zebroo</h2>
-          <p>I was asigned to the creation of their front page utilizing Odoo, their primary tool of
-            choice. This involved customizing the layout by editing the CSS and HTML. This was where I started to learn
-            about my passion for web design. Additionally, I designed the
-            banner and various other elements using Canva to enhance the visual appeal.</p>
-          <a href="https://zebroo.de" target="_blank">Website Link</a>
-          <h2>Skills used:</h2>
+          <h2>Zebroo GmbH</h2>
+          <p>Ich wurde mit der Erstellung der Startseite beauftragt, wobei Odoo, ihr bevorzugtes Werkzeug, zum Einsatz
+            kam. Dies beinhaltete die Anpassung des Layouts durch Bearbeiten von CSS und HTML. Hier entdeckte ich meine
+            Leidenschaft für Webdesign. Zusätzlich habe ich das Banner und verschiedene andere Elemente mit Canva
+            entworfen, um die visuelle Attraktivität zu steigern.</p>
+          <a href="https://zebroo.de" target="_blank" class="outline-button">Link zur Website</a>
+          <h2>Verwendete Fähigkeiten:</h2>
           <img src="images/odoo_logo.png" id="skill-odoo" />
           <i class="fi fi-brands-html5"></i>
           <i class="fi fi-brands-css3"></i>
         </div>
       </div>
     </div>
-
-    <div id="Pfarrverband Puchheim" class="tab-content">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -30px">
+      <path fill="#c7d2ad" fill-opacity="1"
+        d="M0,288L0,128L48,128L48,32L96,32L96,224L144,224L144,224L192,224L192,32L240,32L240,128L288,128L288,64L336,64L336,32L384,32L384,256L432,256L432,160L480,160L480,64L528,64L528,288L576,288L576,160L624,160L624,256L672,256L672,128L720,128L720,160L768,160L768,96L816,96L816,0L864,0L864,32L912,32L912,288L960,288L960,288L1008,288L1008,64L1056,64L1056,288L1104,288L1104,288L1152,288L1152,256L1200,256L1200,192L1248,192L1248,96L1296,96L1296,192L1344,192L1344,64L1392,64L1392,224L1440,224L1440,0L1392,0L1392,0L1344,0L1344,0L1296,0L1296,0L1248,0L1248,0L1200,0L1200,0L1152,0L1152,0L1104,0L1104,0L1056,0L1056,0L1008,0L1008,0L960,0L960,0L912,0L912,0L864,0L864,0L816,0L816,0L768,0L768,0L720,0L720,0L672,0L672,0L624,0L624,0L576,0L576,0L528,0L528,0L480,0L480,0L432,0L432,0L384,0L384,0L336,0L336,0L288,0L288,0L240,0L240,0L192,0L192,0L144,0L144,0L96,0L96,0L48,0L48,0L0,0L0,0Z">
+      </path>
+    </svg>
+    <div id="Pfarrverband-Puchheim">
       <div class="card-product">
-        <img src="images/puchheim_ws.png" alt="Zebroo" />
+        <img src="images/puchheim_ws.png" />
         <div class="card-product-infos">
           <h2>Pfarrverband Puchheim</h2>
-          <p>Since January of this year, I have been volunteering to create a new website for the parish of Puchheim.
-            This project has allowed me to refine my skills in WordPress, as well as frontend fundamentals like CSS and
-            HTML. The website is being developed in close collaboration with the parish staff, ensuring it meets their
-            specific needs and suggestions. Website is still work in progress.</p>
-          <a href="http://testneu.pfarrverband-puchheim.de/" target="_blank">Website Link</a>
-          <h2>Skills used:</h2>
+          <p>Seit Januar dieses Jahres arbeite ich ehrenamtlich an der Erstellung einer neuen Website für die Pfarrei
+            Puchheim. Dieses Projekt hat es mir ermöglicht, meine Fähigkeiten in WordPress sowie in grundlegenden
+            Frontend-Technologien wie CSS und HTML zu verfeinern. Die Website wird in enger Zusammenarbeit mit dem
+            Pfarrteam entwickelt, um sicherzustellen, dass sie deren spezifischen Bedürfnissen und Vorschlägen
+            entspricht. Die Website befindet sich noch in Arbeit.</p>
+          <a href="http://testneu.pfarrverband-puchheim.de/" target="_blank">Link zur Website</a>
+          <h2>Verwendete Fähigkeiten:</h2>
           <i class="fi fi-brands-wordpress"></i>
           <i class="fi fi-brands-html5"></i>
           <i class="fi fi-brands-css3"></i>
         </div>
       </div>
     </div>
-
-    <div id="Fridgy" class="tab-content">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#c7d2ad" fill-opacity="1"
+        d="M0,160L0,32L48,32L48,96L96,96L96,32L144,32L144,224L192,224L192,160L240,160L240,96L288,96L288,160L336,160L336,224L384,224L384,128L432,128L432,224L480,224L480,0L528,0L528,192L576,192L576,64L624,64L624,224L672,224L672,128L720,128L720,160L768,160L768,32L816,32L816,128L864,128L864,192L912,192L912,192L960,192L960,224L1008,224L1008,160L1056,160L1056,160L1104,160L1104,288L1152,288L1152,192L1200,192L1200,160L1248,160L1248,256L1296,256L1296,192L1344,192L1344,288L1392,288L1392,96L1440,96L1440,320L1392,320L1392,320L1344,320L1344,320L1296,320L1296,320L1248,320L1248,320L1200,320L1200,320L1152,320L1152,320L1104,320L1104,320L1056,320L1056,320L1008,320L1008,320L960,320L960,320L912,320L912,320L864,320L864,320L816,320L816,320L768,320L768,320L720,320L720,320L672,320L672,320L624,320L624,320L576,320L576,320L528,320L528,320L480,320L480,320L432,320L432,320L384,320L384,320L336,320L336,320L288,320L288,320L240,320L240,320L192,320L192,320L144,320L144,320L96,320L96,320L48,320L48,320L0,320L0,320Z">
+      </path>
+    </svg>
+    <div id="Fridgy">
       <div class="card-product">
-        <img src="images/fridgy_ws.png" alt="Zebroo" />
+        <img src="images/fridgy_ws.png" />
         <div class="card-product-infos">
           <h2>Fridgy</h2>
-          <p>During our bootcamp, we developed a mobile-friendly application using Ruby on Rails designed to help users
-            manage the ingredients in their fridge and kitchen. Based on the available ingredients, the app suggests
-            recipes tailored to specific meals.</p>
-          <a href="https://www.fridgy.me" target="_blank">Website Link</a>
-          <h2>Skills used:</h2>
+          <p>Während unseres Bootcamps haben wir eine mobilfreundliche Anwendung mit Ruby on Rails entwickelt, die den
+            Nutzern hilft, die Zutaten in ihrem Kühlschrank und ihrer Küche zu verwalten. Basierend auf den verfügbaren
+            Zutaten schlägt die App Rezepte vor, die auf spezifische Mahlzeiten zugeschnitten sind.</p>
+          <a href="https://www.fridgy.me" target="_blank" class="outline-button">Link zur Website</a>
+          <h2>Verwendete Fähigkeiten:</h2>
           <i class="fi fi-brands-html5"></i>
           <i class="fi fi-brands-css3"></i>
           <i class="fi fi-brands-js"></i>
@@ -126,36 +132,44 @@
         </div>
       </div>
     </div>
-
-    <div id="Equ-Win" class="tab-content">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -25px">
+      <path fill="#c7d2ad" fill-opacity="1"
+        d="M0,160L0,32L48,32L48,96L96,96L96,32L144,32L144,224L192,224L192,160L240,160L240,96L288,96L288,160L336,160L336,224L384,224L384,128L432,128L432,224L480,224L480,0L528,0L528,192L576,192L576,64L624,64L624,224L672,224L672,128L720,128L720,160L768,160L768,32L816,32L816,128L864,128L864,192L912,192L912,192L960,192L960,224L1008,224L1008,160L1056,160L1056,160L1104,160L1104,288L1152,288L1152,192L1200,192L1200,160L1248,160L1248,256L1296,256L1296,192L1344,192L1344,288L1392,288L1392,96L1440,96L1440,0L1392,0L1392,0L1344,0L1344,0L1296,0L1296,0L1248,0L1248,0L1200,0L1200,0L1152,0L1152,0L1104,0L1104,0L1056,0L1056,0L1008,0L1008,0L960,0L960,0L912,0L912,0L864,0L864,0L816,0L816,0L768,0L768,0L720,0L720,0L672,0L672,0L624,0L624,0L576,0L576,0L528,0L528,0L480,0L480,0L432,0L432,0L384,0L384,0L336,0L336,0L288,0L288,0L240,0L240,0L192,0L192,0L144,0L144,0L96,0L96,0L48,0L48,0L0,0L0,0Z">
+      </path>
+    </svg>
+    <div id="Equ-Win">
       <div class="card-product">
-        <img src="images/equwin_ws.png" alt="Zebroo" />
+        <img src="images/equwin_ws.png" />
         <div class="card-product-infos">
           <h2>Equ-Win</h2>
-          <p>Utilizing Odoo's website builder, I developed the website based on the art and guidelines provided by the
-            customer. I tailored the site to their specific needs by editing the CSS and HTML.</p>
-          <a href="https://equwin.com" target="_blank">Website Link</a>
-          <h2>Skills used:</h2>
+          <p>Unter Verwendung des Website-Builders von Odoo habe ich die Website basierend auf den vom Kunden
+            bereitgestellten Grafiken und Richtlinien entwickelt. Ich habe die Seite durch Bearbeitung von CSS und HTML
+            an die spezifischen Bedürfnisse des Kunden angepasst.</p>
+          <a href="https://equwin.com" target="_blank">Link zur Website</a>
+          <h2>Verwendete Fähigkeiten:</h2>
           <img src="images/odoo_logo.png" id="skill-odoo" />
           <i class="fi fi-brands-html5"></i>
           <i class="fi fi-brands-css3"></i>
         </div>
       </div>
     </div>
-
-    <div id="ShipBnB" class="tab-content">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#c7d2ad" fill-opacity="1"
+        d="M0,160L0,32L48,32L48,96L96,96L96,32L144,32L144,224L192,224L192,160L240,160L240,96L288,96L288,160L336,160L336,224L384,224L384,128L432,128L432,224L480,224L480,0L528,0L528,192L576,192L576,64L624,64L624,224L672,224L672,128L720,128L720,160L768,160L768,32L816,32L816,128L864,128L864,192L912,192L912,192L960,192L960,224L1008,224L1008,160L1056,160L1056,160L1104,160L1104,288L1152,288L1152,192L1200,192L1200,160L1248,160L1248,256L1296,256L1296,192L1344,192L1344,288L1392,288L1392,96L1440,96L1440,320L1392,320L1392,320L1344,320L1344,320L1296,320L1296,320L1248,320L1248,320L1200,320L1200,320L1152,320L1152,320L1104,320L1104,320L1056,320L1056,320L1008,320L1008,320L960,320L960,320L912,320L912,320L864,320L864,320L816,320L816,320L768,320L768,320L720,320L720,320L672,320L672,320L624,320L624,320L576,320L576,320L528,320L528,320L480,320L480,320L432,320L432,320L384,320L384,320L336,320L336,320L288,320L288,320L240,320L240,320L192,320L192,320L144,320L144,320L96,320L96,320L48,320L48,320L0,320L0,320Z">
+      </path>
+    </svg>
+    <div id="ShipBnB">
       <div class="card-product">
         <img src="images/shipbnb_ws.png" alt="Zebroo" />
         <div class="card-product-infos">
           <h2>ShipBnB</h2>
           <p>
-            Our first bootcamp group project which involved creating an application using Ruby on Rails, similar to the
-            popular
-            app Airbnb. However, instead of renting apartments for vacation trips, our app allows users to rent ships
-            for their wildest adventures.
+            Unser erstes Gruppenprojekt im Bootcamp bestand darin, eine Anwendung mit Ruby on Rails zu erstellen,
+            ähnlich der beliebten App Airbnb. Anstatt jedoch Apartments für Urlaubsreisen zu vermieten, ermöglicht
+            unsere App den Nutzern, Schiffe für ihre wildesten Abenteuer zu mieten.
           </p>
-          <a href="https://shipbnb-53ab240cfb0b.herokuapp.com/" target="_blank">Website Link</a>
-          <h2>Skills used:</h2>
+          <a href="https://shipbnb-53ab240cfb0b.herokuapp.com/" target="_blank" class="outline-button">Link zur Website</a>
+          <h2>Verwendete Fähigkeiten:</h2>
           <i class="fi fi-brands-html5"></i>
           <i class="fi fi-brands-css3"></i>
           <i class="fi fi-brands-js"></i>
@@ -165,21 +179,26 @@
         </div>
       </div>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -30px">
+      <path fill="#c7d2ad" fill-opacity="1"
+        d="M0,32L0,224L49.7,224L49.7,64L99.3,64L99.3,224L149,224L149,160L198.6,160L198.6,96L248.3,96L248.3,192L297.9,192L297.9,0L347.6,0L347.6,96L397.2,96L397.2,160L446.9,160L446.9,128L496.6,128L496.6,224L546.2,224L546.2,64L595.9,64L595.9,128L645.5,128L645.5,160L695.2,160L695.2,224L744.8,224L744.8,96L794.5,96L794.5,256L844.1,256L844.1,96L893.8,96L893.8,32L943.4,32L943.4,256L993.1,256L993.1,32L1042.8,32L1042.8,256L1092.4,256L1092.4,0L1142.1,0L1142.1,0L1191.7,0L1191.7,64L1241.4,64L1241.4,96L1291,96L1291,160L1340.7,160L1340.7,288L1390.3,288L1390.3,224L1440,224L1440,0L1390.3,0L1390.3,0L1340.7,0L1340.7,0L1291,0L1291,0L1241.4,0L1241.4,0L1191.7,0L1191.7,0L1142.1,0L1142.1,0L1092.4,0L1092.4,0L1042.8,0L1042.8,0L993.1,0L993.1,0L943.4,0L943.4,0L893.8,0L893.8,0L844.1,0L844.1,0L794.5,0L794.5,0L744.8,0L744.8,0L695.2,0L695.2,0L645.5,0L645.5,0L595.9,0L595.9,0L546.2,0L546.2,0L496.6,0L496.6,0L446.9,0L446.9,0L397.2,0L397.2,0L347.6,0L347.6,0L297.9,0L297.9,0L248.3,0L248.3,0L198.6,0L198.6,0L149,0L149,0L99.3,0L99.3,0L49.7,0L49.7,0L0,0L0,0Z">
+      </path>
+    </svg>
     <div class="container">
 
       <div class="card">
-        <h2 id="about">About Me</h2>
+        <h2 id="about">Über mich</h2>
         <div class="content">
           <p class="about-text">
-            As a young teenager, I was always interested in building forums for my hobbies, such as gaming or anime, and
-            modifying the HTML of our profiles on various social media platforms like Hi5. Using free tools like GIMP, I
-            would
-            spend hours creating banners. Not long ago, while working for an IT company, I realized that I had a genuine
-            passion for creating websites. This made me reflect on my career decisions, which led me to dive into
-            learning
-            more about web development. Consequently, I enrolled in and completed a web development bootcamp, hoping to
-            make a
-            career change.
+            Mein Name ist Iordan Pinto (29M) und ich komme aus Honduras. Seit 2020 lebe ich in Deutschland. Schon immer
+            war ich leidenschaftlich an Technologie interessiert. Als Jugendlicher war ich stets daran interessiert,
+            Foren für meine Hobbys, wie Gaming oder Anime, zu erstellen und das HTML unserer Profile auf verschiedenen
+            sozialen Medienplattformen wie Hi5 zu ändern. Mit kostenlosen Tools wie GIMP verbrachte ich Stunden damit,
+            Banner zu erstellen. Vor Kurzem, während meiner Tätigkeit in einem IT-Unternehmen, erkannte ich, dass ich
+            eine echte Leidenschaft für die Erstellung von Websites habe. Dies veranlasste mich, über meine
+            Karriereentscheidungen nachzudenken, was mich dazu brachte, tiefer in die Webentwicklung einzutauchen.
+            Folglich habe ich mich für ein Webentwicklungs-Bootcamp eingeschrieben und es abgeschlossen, in der
+            Hoffnung, eine berufliche Veränderung zu erreichen.
           </p>
           <div class="about-image">
             <img src="images/aboutme.png" alt="Iordan Pinto">
@@ -193,7 +212,7 @@
 <div class="footer">
 
   <div class="footer-links">
-    <h3>Contact me:</h3>
+    <h3>Kontaktieren Sie mich:</h3>
     <a href="mailto:pintoiordan@gmail.com"><i class="fas fa-envelope"></i></a>
     <a href="https://linkedin.com/in/iordanpinto"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/iordanpinto"><i class="fab fa-github"></i></a>

@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FFFEFA;
+  /* background-color: #FFFEFA; */
 }
 
 body {
@@ -54,4 +54,11 @@ a:hover {
 
 .logo:hover {
   cursor: default;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px;
 }
