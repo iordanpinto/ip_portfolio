@@ -35,6 +35,30 @@
 
 }
 
+.socials-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.socials-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.socials-links a i:hover {
+  color: #c7d2ad;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.socials-links p {
+  margin: 0;
+  padding: 30px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .content {

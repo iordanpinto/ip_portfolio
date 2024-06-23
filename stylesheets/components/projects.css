@@ -40,28 +40,21 @@
   text-align: justify;
 }
 
-/* #projects {
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 55px;
-  font-size: 25px;
-} */
-
 .card-product .card-product-infos {
   padding-left: 80px;
 
 }
 
-.card-product .card-product-infos i {
+.card-product-infos i {
   margin-left: 15px;
   font-size: 25px;
-
 }
 
+.card-product-skills {
+  margin-bottom: 30px;
+}
 .container {
   width: 70%;
-  /* margin: 0 auto; */
 }
 
 .container h2 {
@@ -85,7 +78,7 @@
 }
 
 .dark-outline-button {
-   display: inline-block;
+  display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
   color: black;

@@ -8,39 +8,7 @@
   color: rgba(0,0,0,0.3);
   margin-top: 50px;
 }
-.footer-links {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-}
-.footer-links a {
-  color: black;
-  text-decoration: none;
-  font-size: 35px;
-  padding: 0px 10px;
-}
 
-.footer-links a i:hover {
-  color: #c7d2ad;
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-.footer-links p {
-  margin: 0;
-  padding: 30px;
-}
-
-.socials {
-  margin-top: 5px;
-}
-
-.socials a i {
-  margin-right: 10px;
-  text-decoration: none;
-  color: black;
-}
 
 .footer-copyright {
   text-align: right;
