@@ -11,30 +11,35 @@
 .footer-links {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 .footer-links a {
   color: black;
-  opacity: 0.15;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 35px;
   padding: 0px 10px;
 }
 
+.footer-links a i:hover {
+  color: #c7d2ad;
+  text-decoration: none;
+  transition: 0.5s;
+}
 
 .footer-links p {
   margin: 0;
-  padding: 15px;
+  padding: 30px;
 }
 
 .socials {
   margin-top: 5px;
 }
 
-.socials a {
+.socials a i {
   margin-right: 10px;
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 .footer-copyright {
