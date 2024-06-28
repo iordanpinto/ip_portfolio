@@ -37,7 +37,6 @@ nav {
   justify-content: space-between;
   height: 20px;
   width: 30px;
-  cursor: pointer;
 }
 
 .hamburger-icon span {
@@ -45,6 +44,7 @@ nav {
   height: 1.8px;
   background-color: black;
   transition: all 0.3s ease-in-out;
+
 }
 
 .menu-links {
