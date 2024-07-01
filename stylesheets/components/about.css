@@ -68,10 +68,20 @@
   }
 
   .about-text {
-      text-align: justify;
+      text-align: left;
   }
 
   .about-image {
       margin-top: 20px;
   }
+
+  .more-text {
+    display: none;
+  }
+
+  .read-more.active + .more-text {
+    display: inline;
+  }
+
+
 }
