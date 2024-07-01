@@ -9,11 +9,11 @@ function toggleReadMore() {
   const readMoreLink = document.querySelector('.read-more');
   const moreText = document.querySelector('.more-text');
 
-  if (moreText.style.display === "none") {
+  if (moreText.style.display === "none" || moreText.style.display === "") {
     moreText.style.display = "inline";
     readMoreLink.innerHTML = " read less";
   } else {
     moreText.style.display = "none";
-    readMoreLink.innerHTML = "...read more ";
+    readMoreLink.innerHTML = "...read more";
   }
 }

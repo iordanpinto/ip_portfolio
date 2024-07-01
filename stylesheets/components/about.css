@@ -1,5 +1,4 @@
 
-
 .card {
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -8,6 +7,7 @@
   transition: transform 0.2s;
 }
 .card h2 {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +59,14 @@
   padding: 30px;
 }
 
+.more-text {
+  display: inline;
+}
+
+.read-more {
+  display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .content {
@@ -73,6 +81,10 @@
 
   .about-image {
       margin-top: 20px;
+  }
+
+  .read-more {
+    display: inline;
   }
 
   .more-text {
