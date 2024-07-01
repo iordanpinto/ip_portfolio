@@ -15,9 +15,8 @@
 
 body {
   font-family: "Chivo Mono", monospace;
-  background-size: 100% 100%;
-  background-position: 0px 0px;
-  background-image: linear-gradient(90deg, #f7f7f7ff 0%, #302f2f08 100%);
+  background: rgb(63, 90, 94);
+  background: radial-gradient(circle, rgba(63,90,94,1) 0%, rgba(43,73,78,1) 100%);
 }
 
 html {
@@ -25,8 +24,16 @@ html {
 }
 
 p {
-  color: rgb(30, 30, 30);
+  color: white;
   font-size: 18px;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: rgb(30, 30, 30);
 }
 
 h2 {
@@ -42,7 +49,7 @@ a,
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -63,4 +70,5 @@ h4 {
   text-align: left;
   margin-right: 35px;
   font-size: 14px;
+  color: white;
 }

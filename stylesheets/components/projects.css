@@ -59,7 +59,6 @@
 
 .container h2 {
   font-size: 20px;
-
 }
 
 .outline-button {
@@ -101,7 +100,7 @@
 }
 
 #Zebroo {
-  background-color: #c7d2ad;
+  background-color: white;
 }
 
 #Pfarrverband-Puchheim {
@@ -109,7 +108,7 @@
 }
 
 #Fridgy {
-  background-color: #c7d2ad;
+  background-color: white;
 }
 
 #Equ-Win {
@@ -117,7 +116,11 @@
 }
 
 #ShipBnB {
-  background-color:  #c7d2ad;
+  background-color:  white;
+}
+
+.card {
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
