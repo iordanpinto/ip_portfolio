@@ -14,14 +14,6 @@
 
 }
 
-.card-product img:hover {
-  height: 100%;
-  width: 50%;
-  object-fit: cover;
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
 
 .card-product h2 {
   font-size: 16px;
